@@ -4,5 +4,5 @@ Just a simple container that runs the ls command so you can test your volume map
 
 Usage: 
 ```
-docker run -v /tmp/my-host-vol:/tmp/my-container-vol leviharrison/test-volumes /tmp/my-container-vol
+docker run -v /tmp/my-host-vol:/tmp/my-container-vol leviharrison/test-volumes /tmp/my-container-vol -l
 ```
